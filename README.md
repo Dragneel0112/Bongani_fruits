@@ -22,6 +22,9 @@ web_url
 
 | Names | Path | Purpose |
 | ----- | ----- | ----- |
+| models | [models](models) | Has the setup for tables of components |
+| tests | [tests](tests) | Test files for repo |
+| web_dynamic | [web_dynamic](web_dynamic) | The basic app and templates for web page |
 
 
 ---
