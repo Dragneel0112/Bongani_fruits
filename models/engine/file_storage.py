@@ -6,7 +6,7 @@ Contains the FileStorage class
 import json
 import models
 from models.base_model import BaseModel
-from models.User import User
+from models.user import User
 from models.fruit import Fruits
 from hashlib import md5
 
