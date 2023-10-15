@@ -1,0 +1,167 @@
+{
+    "items": [
+        {
+            "sys": { "id": "1" },
+            "fields": {
+              "title": "Snackables",
+              "weight": "50g",
+              "price": 26.99,
+              "image": { "fields": { "file": { "url": "../static/images/Snackables.jpeg" } } }
+            }
+          },
+          {
+            "sys": { "id": "2" },
+            "fields": {
+              "title": "Snackables",
+              "weight": "80g",
+              "price": 35.99,
+              "image": { "fields": { "file": { "url": "../static/images/Snackables.jpeg" } } }
+            }
+          },
+          {
+            "sys": { "id": "3" },
+            "fields": {
+              "title": "Snackables",
+              "weight": "120g",
+              "price": 44.99,
+              "image": { "fields": { "file": { "url": "../static/images/Snackables.jpeg" } } }
+            }
+          },
+          {
+            "sys": { "id": "4" },
+            "fields": {
+              "title": "SunburstSurprise",
+              "weight": "50g",
+              "price": 21.99,
+              "image": { "fields": { "file": { "url": "../static/images/SunburstSurprise.jpeg" } } }
+            }
+          },
+          {
+            "sys": { "id": "5" },
+            "fields": {
+              "title": "SunburstSurprise",
+              "weight": "80g",
+              "price": 27.99,
+              "image": { "fields": { "file": { "url": "../static/images/SunburstSurprise.jpeg" } } }
+            }
+          },
+          {
+            "sys": { "id": "6" },
+            "fields": {
+              "title": "SunburstSurprise",
+              "weight": "120g",
+              "price": 36.99,
+              "image": { "fields": { "file": { "url": "../static/images/SunburstSurprise.jpeg" } } }
+            }
+          },
+          {
+            "sys": { "id": "7" },
+            "fields": {
+              "title": "Apples",
+              "weight": "50g",
+              "price": 22.99,
+              "image": { "fields": { "file": { "url": "../static/images/Apples.jpg" } } }
+            }
+          },
+          {
+            "sys": { "id": "8" },
+            "fields": {
+              "title": "Apples",
+              "weight": "80g",
+              "price": 29.99,
+              "image": { "fields": { "file": { "url": "../static/images/Apples.jpg" } } }
+            }
+          },
+          {
+            "sys": { "id": "9" },
+            "fields": {
+              "title": "Apples",
+              "weight": "120g",
+              "price": 35.99,
+              "image": { "fields": { "file": { "url": "../static/images/Apples.jpg" } } }
+            }
+          },
+          {
+            "sys": { "id": "10" },
+            "fields": {
+              "title": "Bananas",
+              "weight": "50g",
+              "price": 20.99,
+              "image": { "fields": { "file": { "url": "../static/images/Banana.jpeg" } } }
+            }
+          },
+          {
+            "sys": { "id": "11" },
+            "fields": {
+              "title": "Bananas",
+              "weight": "80g",
+              "price": 26.99,
+              "image": { "fields": { "file": { "url": "../static/images/Banana.jpeg" } } }
+            }
+          },
+          {
+            "sys": { "id": "12" },
+            "fields": {
+              "title": "Bananas",
+              "weight": "120g",
+              "price": 32.99,
+              "image": { "fields": { "file": { "url": "../static/images/Banana.jpeg" } } }
+            }
+          },
+          {
+            "sys": { "id": "13" },
+            "fields": {
+              "title": "Lemons",
+              "weight": "50g",
+              "price": 23.99,
+              "image": { "fields": { "file": { "url": "../static/images/Lemon.jpeg" } } }
+            }
+          },
+          {
+            "sys": { "id": "14" },
+            "fields": {
+              "title": "Lemons",
+              "weight": "80g",
+              "price": 29.99,
+              "image": { "fields": { "file": { "url": "../static/images/Lemon.jpeg" } } }
+            }
+          },
+          {
+            "sys": { "id": "15" },
+            "fields": {
+              "title": "Lemons",
+              "weight": "120g",
+              "price": 35.99,
+              "image": { "fields": { "file": { "url": "../static/images/Lemon.jpeg" } } }
+            }
+          },
+          {
+            "sys": { "id": "16" },
+            "fields": {
+              "title": "Pineapples",
+              "weight": "50g",
+              "price": 26.99,
+              "image": { "fields": { "file": { "url": "../static/images/Pineapple.jpeg" } } }
+            }
+          },
+          {
+            "sys": { "id": "17" },
+            "fields": {
+              "title": "Pineapples",
+              "weight": "80g",
+              "price": 31.99,
+              "image": { "fields": { "file": { "url": "../static/images/Pineapple.jpeg" } } }
+            }
+          },
+          {
+            "sys": { "id": "18" },
+            "fields": {
+              "title": "Pineapples",
+              "weight": "120g",
+              "price": 41.99,
+              "image": { "fields": { "file": { "url": "../static/images/Pineapple.jpeg" } } }
+            }
+          }
+    ]
+      
+}
