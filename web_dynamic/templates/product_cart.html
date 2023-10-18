@@ -15,6 +15,11 @@
     <nav class="navbar">
         <div class="navbar-centre">
             <img src="../static/images/Bongani fruits logo.jpg" alt="logo">
+            <h1>Bongani Fruits</h1>
+            <ul>
+                <li><a href="{{url_for('home_p')}}"></a>Home</li>
+                <li><a href="{{url_for('logout')}}"></a>Logout</li>
+            </ul>
             <div class="cart-btn">
                 <span class="nav-icon">
                     <i class="fa-solid fa-cart-shopping"></i>
@@ -52,6 +57,14 @@
         </div>
     </div>
     <!-- End of cart-->
+    <!-- Hero -->
+    <div class="hero">
+        <p>** Please Note **</p>
+        <p>Prices are excluding delivery</p>
+        <p>Delivery will be charged at R60.00</p>
+        <img src="../static/images/courier.jpeg" alt="Courier">
+    </div>
+    <!-- End of Hero -->
     <script src="../static/scripts/app.js"></script>
 </body>
 </html>

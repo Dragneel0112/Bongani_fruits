@@ -30,7 +30,7 @@
           {
             "sys": { "id": "4" },
             "fields": {
-              "title": "SunburstSurprise",
+              "title": "Sunburst Surprise",
               "weight": "50g",
               "price": 21.99,
               "image": { "fields": { "file": { "url": "../static/images/SunburstSurprise.jpeg" } } }
@@ -39,7 +39,7 @@
           {
             "sys": { "id": "5" },
             "fields": {
-              "title": "SunburstSurprise",
+              "title": "Sunburst Surprise",
               "weight": "80g",
               "price": 27.99,
               "image": { "fields": { "file": { "url": "../static/images/SunburstSurprise.jpeg" } } }
@@ -48,7 +48,7 @@
           {
             "sys": { "id": "6" },
             "fields": {
-              "title": "SunburstSurprise",
+              "title": "Sunburst Surprise",
               "weight": "120g",
               "price": 36.99,
               "image": { "fields": { "file": { "url": "../static/images/SunburstSurprise.jpeg" } } }
