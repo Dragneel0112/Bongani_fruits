@@ -9,6 +9,12 @@ body {
   background-color: #E3E7E8;
 }
 
+h3 {
+  text-align: center;
+  color: rgba(210, 105, 30, 0.597);
+  font-size: 30px;
+}
+
 /** ------ Navbar ------ **/
 
 .navbar {
