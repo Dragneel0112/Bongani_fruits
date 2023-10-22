@@ -74,6 +74,14 @@ def home():
     return render_template('home.html')
 
 
+@app.route('/products')
+def products():
+    '''
+    Products page
+    '''
+    return render_template('products.html')
+
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     '''
@@ -85,7 +93,7 @@ def login():
         if user:
             if bcrypt.check_password_hash(user.password, form.password.data):
                 login_user(user)
-                return redirect(url_for('home'))
+                return redirect(url_for('home_p'))
     return render_template('login.html', form=form)
 
 
@@ -109,8 +117,29 @@ def register():
 @app.route('/logout', methods=['GET', 'POST'])
 @login_required
 def logout():
+    '''
+    Logout User
+    '''
     logout_user()
     return redirect(url_for('home'))
+
+
+@app.route('/home_p', methods=['GET', 'POST'])
+@login_required
+def home_p():
+    '''
+    Login Homepage
+    '''
+    return render_template('home_p.html')
+
+
+@app.route('/products_cart', methods=['GET', 'POST'])
+@login_required
+def products_cart():
+    '''
+    Products page with cart
+    '''
+    return render_template('products_cart.html')
 
 
 if __name__ == "__main__":

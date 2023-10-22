@@ -3,16 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../static/images/logo.jpg">
     <title>Bongani Fruits</title>
+    <!-- Style Sheet-->
+    <link rel="stylesheet" href="../static/styles/home.css">
 </head>
 <body>
+    <nav class="navbar">
+        <div class="navbar-centre">
+            <img src="../static/images/Bongani fruits logo.jpg" alt="logo">
+            <h1>Bongani Fruits</h1>
+            <ul>
+                <li><a href="{{ url_for('home') }}"></a>Home</li>
+                <li><a href="{{ url_for('products') }}"></a>Products</li>
+                <li><a href="{{ url_for('login') }}"></a>Login</li>
+            </ul>
+        </div>
+    </nav>
+    <h3>*** Have an Account already, Please Login ***</h3>
     <form method="POST" action="">
         {{ form.hidden_tag() }}
         {{ form.username }}
         {{ form.password }}
         {{ form.submit }}
     </form>
-    <a href="{{url_for('home')}}">Home</a>
-    <a href="{{url_for('login')}}">Already regiestered, Please login</a>
 </body>
 </html>
