@@ -139,7 +139,7 @@ def products_cart():
     '''
     Products page with cart
     '''
-    return render_template('products_cart.html')
+    return render_template('product_cart.html')
 
 
 if __name__ == "__main__":

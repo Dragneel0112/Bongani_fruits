@@ -7,7 +7,7 @@ const productsDOM = document.querySelector('.products-center');
 class Products {
   async getProducts () {
     try {
-      const result = await fetch('../products.json');
+      const result = await fetch('../static/scripts/products.json');
       const data = await result.json();
 
       let products = data.items;

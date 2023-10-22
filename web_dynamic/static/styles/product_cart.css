@@ -52,19 +52,14 @@ h3 {
   color: rgb(132, 53, 53);
 }
 
-.navbar-centre ul {
-  display: flex;
-  list-style: none;
-  padding-left: 80px;
-}
-
-.navbar-centre li {
+.navbar-centre a {
   padding: 10px;
   text-decoration: none;
   font-size: 20px;
+  color: black;
 }
 
-.navbar-centre li:hover {
+.navbar-centre a:hover {
   color: rgb(18, 133, 133);
   transition: 0.5ms;
 }
